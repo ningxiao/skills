@@ -4,4 +4,4 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--name", type=str, default="张三")
     args, _ = parser.parse_known_args()
-    print(f"你好，{args.name}今天天气不错要钓鱼去吗？")
+    print(f"你好，{args.name}今天天气不错要爬山去吗？")
